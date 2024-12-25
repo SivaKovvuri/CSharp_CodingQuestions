@@ -1,0 +1,17 @@
+# Exclude Visual Studio specific files
+.vs/
+*.suo
+*.db
+*.db-wal
+*.db-shm
+*.vscode/
+
+# Exclude build output
+*/obj/
+*/bin/
+
+# Exclude temporary files
+*.backup
+*.v2
+DesignTimeBuild/
+FileContentIndex/
